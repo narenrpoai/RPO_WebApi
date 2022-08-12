@@ -1,0 +1,23 @@
+{
+  "resources": [
+    {
+      "name": "default-role",
+      "resource_type": "iam_role",
+      "role_arn": "arn:aws:iam::886551429987:role/RPO_WebApi-dev",
+      "role_name": "RPO_WebApi-dev"
+    },
+    {
+      "name": "api_handler",
+      "resource_type": "lambda_function",
+      "lambda_arn": "arn:aws:lambda:us-east-1:886551429987:function:RPO_WebApi-dev"
+    },
+    {
+      "name": "rest_api",
+      "resource_type": "rest_api",
+      "rest_api_id": "gbgjmjqkv1",
+      "rest_api_url": "https://gbgjmjqkv1.execute-api.us-east-1.amazonaws.com/api/"
+    }
+  ],
+  "schema_version": "2.0",
+  "backend": "api"
+}
